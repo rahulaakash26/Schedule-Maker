@@ -1,6 +1,4 @@
-/* Schedule Maker version 7 */
-
-//this version includes updation of tasks based on dates 
+/* Schedule Maker version 7 */ 
 
 #include<iostream>
 #include<windows.h>
@@ -28,7 +26,7 @@ class LinkedList {
 		void appendNode(Node*);				//this function is used inside the createNode() to append nodes in list
 		void deleteNode();					//function declaration to delete a Node
 		void updateNode();					//function to update a task
-        void upcoming();                    //function for upcoming Task
+        	void upcoming();                    //function for upcoming Task
 		void pickGroup(string);			//function to show specific group
 		bool dateValidator(Node&);			//function declaratioin to check if the date entered is valid or not
 		bool timeValidator(Node&);			//function declaratioin to check if the time entered is valid or not
